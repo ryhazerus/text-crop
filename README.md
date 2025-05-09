@@ -2,6 +2,9 @@
 
 Created for personal use to reduce file size when using LLMs. The program remove all white spaces form the file inculding new lines and prints it to your terminal. LLMs can still figure out the context form the blob generated and it saves on tokens and characther limits from some LLMs.
 
+Handy to know:
+> Handles big files nicely due to reading the file in blocks.
+
 ## Requirements
 
 - Nothing special all made with the C++ standard library
